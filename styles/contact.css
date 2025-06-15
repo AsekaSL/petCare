@@ -1,0 +1,43 @@
+.contact-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    position: relative;
+}
+.contact-form{
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    background-color: rgb(11, 158, 195);
+    border: none;
+    border-radius: 4px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    width: 40%;
+    padding: 20px;
+    row-gap: 10px;
+}
+.contact-form-title div{
+    font-size: 25px;
+}
+.contact-form-title span{
+    font-size: 18px;
+}
+.contact-form input,
+.contact-form textarea{
+    padding: 10px;
+    border: none;
+}
+.contact-form input:focus,
+.contact-form textarea:focus{
+    background-color: rgb(255, 255, 112);
+}
+.form-submit-button{
+    height: 35px;
+    border: none;
+    border-radius: 17.5px;
+    background-color: rgb(255, 213, 0);
+    letter-spacing: 5px;
+}
+.contact-form-title hr{
+    width: 180px;
+}

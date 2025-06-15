@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.shop-logo{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.shop-logo img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    object-position: center;
+}
+.shop-logo h1{
+    font-family: sans-serif;
+    color: white;
+    font-size: 43px;
+    font-weight: bolder;
+}
+nav{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+}
+nav ol{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 10px;
+}
+ol li{
+    width: 100px;
+    padding: 10px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+ol li:hover{
+    background-color: rgba(165, 42, 42, 0.627);
+    
+}

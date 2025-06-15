@@ -1,0 +1,60 @@
+.review-conatiner{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    padding: 50px;
+}
+.review-title-conatiner{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.review-title-conatiner div{
+    color: yellow;
+    font-size: 23px;
+}
+
+.review-title-conatiner span{
+    font-size: 18px;
+}
+.review-title-conatiner hr{
+    width: 150px;
+    border: 2px solid white;
+}
+.review-cart-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+.review-cart{ /*'Dancing Script', cursive;*/
+    padding: 50px 100px ;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid black;
+    row-gap: 25px;
+    align-items: center;
+    justify-content: start;
+}
+.review-cart-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.review-cart-discription{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 25px;
+}
+.review-cart-image{
+    width: 150px;
+    height: 150px;
+    border: none;
+    border-radius: 75px;
+}
+.review-cart-author{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.review-cart-author,
+.review-cart-discription{
+    color: rgba(0, 0, 0, 0.611);
+}
